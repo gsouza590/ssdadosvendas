@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import com.gabriel.sistemaVendas.Repository.SaleRepository;
 import com.gabriel.sistemaVendas.Service.SaleService;
-import com.gabriel.sistemaVendas.entities.Sales;
+import com.gabriel.sistemaVendas.entities.Sale;
 
 @Service
 public class SaleServiceImpl implements SaleService {
@@ -19,7 +19,7 @@ public class SaleServiceImpl implements SaleService {
 	private SaleRepository saleRepository;
 
 	@Override
-	public Page<Sales> findSales(String minDate, String maxDate, Pageable pageable) {
+	public Page<Sale> findSales(String minDate, String maxDate, Pageable pageable) {
 		LocalDate today = LocalDate.ofInstant(Instant.now(), ZoneId.systemDefault());
 
 		LocalDate min = minDate.equals("") ? today.minusDays(365) : LocalDate.parse(minDate);
