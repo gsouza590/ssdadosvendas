@@ -1,0 +1,31 @@
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  background-color: gray;
+  color: #fff;
+}
+
+.ss-container{
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+  
+}
+
+#sales{
+  font-size: 5rem;
+  padding: 4rem 1rem;
+}

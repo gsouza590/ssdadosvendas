@@ -1,0 +1,29 @@
+
+.ss-card{
+    background-color: #23375e; 
+    border-radius: 1rem;
+    padding: 3rem 1rem;
+
+}
+
+.ss-title{
+    color: #a9aceb;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.ss-form-control-container{
+    margin-bottom: 2rem;
+    max-width: 30rem;
+}
+
+.ss-form-control{
+    width: 100%;
+    height: 4.6rem;
+    background-color: hsl(213, 75%, 55%);
+    border: 1px solid #1e62d6;
+    border-radius: 5px;
+    color: #0f1216;
+    padding: 0 20px;
+    font-size: 18px;
+}

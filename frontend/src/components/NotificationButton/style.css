@@ -1,0 +1,15 @@
+.ntf-btn {
+    height: 45px;
+    width: 45px;
+    background: rgba(24, 70, 168, 0.1);
+    border: 1px solid #6bfff8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .ntf-btn img {
+    width: 19px;
+  }
