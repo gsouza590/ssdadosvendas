@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, {useEffect, useState} from "react";
+import  {useEffect, useState} from "react";
 import './style.css'
 import {Sale} from '../../models/sale'
 import DatePicker from 'react-datepicker';
