@@ -1,6 +1,6 @@
 header{
-    background: rgb(2,0,36);
-    background: linear-gradient(106deg, rgba(2,0,36,1) 0%, rgba(29,46,192,1) 57%, rgba(31,31,203,1) 61%, rgba(0,212,255,1) 100%);
+  background-image: url(../../assets/background-azul.jpg);
+    background-color: rgba(0, 0, 0, 0.178);
     height: 22rem;
     display: flex;
     align-items: center;
@@ -14,8 +14,12 @@ header{
     align-items: center;
   }
   
-
+  .ss-logo-container img{
+    height: 17rem;
+    width: auto;
+    
+  }
   .ss-logo-container h1 {
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-size: 3rem;
   }

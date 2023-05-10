@@ -14,7 +14,9 @@ html{
 
 body,
 html {
-  background-color: gray;
+  background: rgb(2,0,36);
+    background: linear-gradient(106deg, rgba(2,0,36,1) 0%, rgba(29,46,192,1) 57%, rgba(31,31,203,1) 61%, rgba(0,212,255,1) 100%);
+ 
   color: #fff;
 }
 

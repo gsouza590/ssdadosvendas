@@ -1,6 +1,6 @@
 
 .ss-card{
-    background-color: #23375e; 
+    background-color: #132b5c; 
     border-radius: 1rem;
     padding: 3rem 1rem;
 
@@ -27,3 +27,73 @@
     padding: 0 20px;
     font-size: 18px;
 }
+
+.ss-table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.ss-table thead{
+    height: 5.5rem;
+    font-size: 1.6rem;
+    color: #e9e9e9;
+    font-weight: 700;
+}
+
+.ss-table tbody{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #e0bcbc;
+    text-align: center;
+}
+
+.ss-table tbody tr{
+    height: 7.4rem;
+    border-top: 1px solid  #5f6e82;
+}
+.ss-table tbody tr:hover>td {
+    background-color: #384459;
+  }
+  
+  .ss-table tbody tr:nth-child(odd) {
+    background-color: #242c3b;
+  }
+  
+  .ntf-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .show576 {
+    display: none;
+  }
+  
+  .show992 {
+    display: none;
+  }
+  
+  @media (min-width: 576px) {
+    .show576 {
+      display: table-cell;
+    }
+  
+    .ss-card {
+      padding: 35px;
+    }
+  
+    .ss-table tbody tr {
+      height: 55px;
+    }
+  
+    .ss-table tbody {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .show992 {
+      display: table-cell;
+    }
+  }
