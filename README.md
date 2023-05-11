@@ -1,4 +1,6 @@
 # System Sales
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/neliocursos/exemplo-readme/blob/main/LICENSE) 
+
 Sistemas de Dados de vendas dos colaboradores feito em SpringBoot e  React e com a API Twilio para mandar SMS de forma automática.
 
 
@@ -51,3 +53,8 @@ Sistemas de Dados de vendas dos colaboradores feito em SpringBoot e  React e com
  <li>MySql</li>
 </ul>
 
+# Autor
+
+Gabriel Domiciano de Souza
+
+https://www.linkedin.com/in/gabrielsdomiciano/
